@@ -6,11 +6,11 @@
 
 #background-ani{
 	width: 1000px;
-    height: 2000px;
-    background-image: url(../img/sky.png);
+	height: 7000px;
+    background-image: url(../img/road.png);
     background-position: 0px 0px;
     background-repeat: repeat-y;
     background-size: contain;
 
-    animation: animatedBackground 4s linear infinite;
+    animation: animatedBackground 1s linear infinite;
 }
