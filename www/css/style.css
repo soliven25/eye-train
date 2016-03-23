@@ -9,7 +9,8 @@
     height: 2000px;
     background-image: url(../img/sky.png);
     background-position: 0px 0px;
-    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-size: contain;
 
-    animation: animatedBackground 40s linear infinite;
+    animation: animatedBackground 4s linear infinite;
 }
