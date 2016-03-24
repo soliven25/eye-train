@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-    <title></title>
+    <title>eye trainer</title>
 
     <link href="lib/ionic/css/ionic.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -20,6 +20,14 @@
 
     <!-- your app's js -->
     <script src="js/app.js"></script>
+    <script type="text/javascript">
+        function showHide(id){
+          var e = document.getElementById(id);
+          e.style.display = (e.style.display == 'block')?'none':'block';
+        }
+
+
+    </script>
   </head>
   <body ng-app="starter">
 
@@ -29,10 +37,10 @@
       </ion-header-bar>
       <ion-content>
         <div id="background-ani">
-          <input type="button" style="position:absolute; top:100px; left:100px;">
-          <input type="button" style="position:absolute; top:300px; left:80px;">
-          <input type="button" style="position:absolute; top:400px; left:20px;">
-          <input type="button" style="position:absolute; top:400px; left:70px;">
+          <input type="button" id = "button1" onclick= showHide(id); style="position:absolute; top:100px; left:100px;">
+          <input type="button" id = "button2" onclick= showHide(id); style="position:absolute; top:300px; left:80px;">
+          <input type="button" id = "button3" onclick= showHide(id); style="position:absolute; top:400px; left:20px;">
+          <input type="button" id = "button4" onclick= showHide(id); style="position:absolute; top:400px; left:70px;">
         </div>
       </ion-content>
     </ion-pane>
