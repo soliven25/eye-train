@@ -13,9 +13,9 @@
     background-repeat: repeat-y;
     background-size: contain;
 
-    animation: animatedBackground 20s linear infinite;
+    animation: animatedBackground 30s linear infinite;
 }
 
-#button1{
-	color:red;
+.button{
+	border: none;
 }
