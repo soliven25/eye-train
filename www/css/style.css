@@ -5,14 +5,15 @@
 }
 
 #background-ani{
-	width: 1000px;
-	height: 7000px;
-    background-image: url(../img/road.png);
+
+	width: 420px;
+	height: 10000px;
+    background-image: url(../img/trail.png);
     background-position: 0px 0px;
     background-repeat: repeat-y;
     background-size: contain;
 
-    animation: animatedBackground 1s linear infinite;
+    animation: animatedBackground 20s linear infinite;
 }
 
 #button1{
