@@ -22,15 +22,14 @@
     <script src="js/app.js"></script>
     <script type="text/javascript">
 
+        function setVisible(buttonid){
 
-         function setVisible(buttonid){
-
-            setTimeout(function(){
-              var e = document.getElementById(buttonid);
-              e.style.display = 'block';
-            }, 3000);
-
-          }
+          setTimeout(function(){
+            /* Thanks for closure! I can pass the buttonid */
+            var e = document.getElementById(buttonid);
+            e.style.display = 'block';
+          }, 3000);
+        }
 
         function showButton(){
 
@@ -40,18 +39,11 @@
 
         function showHide(id){
           var e = document.getElementById(id);
-          //e.style.display = (e.style.display == 'block')?'none':'block';
 
-          e.style.display = 'none';
+          e.style.display = 'none';       
 
-          //setTimeout(showButton, 3000);
-
-          
-
-          setVisible(id);
-          
+          setVisible(id);  
         }
-
 
     </script>
   </head>
