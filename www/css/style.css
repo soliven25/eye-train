@@ -14,3 +14,7 @@
 
     animation: animatedBackground 1s linear infinite;
 }
+
+#button1{
+	color:red;
+}
