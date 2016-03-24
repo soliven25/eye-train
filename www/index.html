@@ -16,6 +16,7 @@
     <script src="lib/ionic/js/ionic.bundle.js"></script>
 
     <!-- cordova script (this will be a 404 during development) -->
+    <script src="lib/ngCordova/dist/ng-cordova.js"></script>
     <script src="cordova.js"></script>
 
     <!-- your app's js -->
@@ -40,7 +41,9 @@
         function showHide(id){
           var e = document.getElementById(id);
 
-          e.style.display = 'none';       
+          e.style.display = 'none'; 
+
+          document.getElementById("embed").innerHTML="<embed src='sound/click.mp3' autostart=true loop=false volume=100 hidden=true>";      
 
           setVisible(id);  
         }
@@ -59,7 +62,8 @@
           <input type="button" id = "button2" onclick= showHide(id); style="position:absolute; top:300px; left:80px; background-color:green;">
           <input type="button" id = "button3" onclick= showHide(id); style="position:absolute; top:400px; left:20px; background-color:purple;">
           <input type="button" id = "button4" onclick= showHide(id); style="position:absolute; top:400px; left:70px; background-color:red;">
-          <input type="button" id = "button5" onclick= showHide(id); style="position:absolute; top:420px; left:10px; background-color:red;">
+          <input type="button" id = "button5" onclick= showHide(id); style="position:absolute; top:420px; left:10px; background-color:blue;">
+          <div id="embed"></div>
         </div>
       </ion-content>
     </ion-pane>
