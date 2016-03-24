@@ -22,18 +22,20 @@
     <script src="js/app.js"></script>
     <script type="text/javascript">
 
-        function showButton(id){
+        function showButton(){
 
-          var e = document.getElementById(id);
+          var e = document.getElementById('button1');
           e.style.display = 'block';
         }
 
         function showHide(id){
           var e = document.getElementById(id);
-          e.style.display = (e.style.display == 'block')?'none':'block';
+          //e.style.display = (e.style.display == 'block')?'none':'block';
+
+          e.style.display = 'none';
+
+          setTimeout(showButton, 3000);
           
-          if(e.style.display == 'none')
-            setTimeout(showButton(id),2000);
         }
 
 
