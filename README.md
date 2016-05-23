@@ -35,4 +35,4 @@ Issues have been disabled on this repo, if you do find an issue or have a questi
 
 
 
-![Version Control](https://github.com/soliven25/eye-train/bbtb_version.PNG)
+![Version Control](https://raw.github.com/soliven25/eye-train/master/bbtb_version.PNG)
