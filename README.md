@@ -1,13 +1,18 @@
 eye_train
 =====================
 
-Tip
+##Tip
 ```bash
 $git init
+
 $git add .
+
 $git commit -m "First commit"
+
 $git remote add origin https://github.com/soliven25/eye_train.git
+
 $git remote -v
+
 $git push origin master
 ```
 A starting project for Ionic that optionally supports using custom SCSS.
@@ -16,16 +21,11 @@ A starting project for Ionic that optionally supports using custom SCSS.
 
 We recommend using the [Ionic CLI](https://github.com/driftyco/ionic-cli) to create new Ionic projects that are based on this project but use a ready-made starter template.
 
-For example, to start a new Ionic project with the default tabs interface, make sure the `ionic` utility is installed:
-
+##Run the app in ios
 ```bash
-$ npm install -g ionic
-```
+$ionic plstform ios
 
-Then run:
-
-```bash
-$ ionic start myProject tabs
+$ionic run ios 
 ```
 
 More info on this can be found on the Ionic [Getting Started](http://ionicframework.com/getting-started) page and the [Ionic CLI](https://github.com/driftyco/ionic-cli) repo.
