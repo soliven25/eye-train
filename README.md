@@ -2,14 +2,14 @@ eye_train
 =====================
 
 Tip
-
+```bash
 $git init
 $git add .
 $git commit -m "First commit"
 $git remote add origin https://github.com/soliven25/eye_train.git
 $git remote -v
 $git push origin master
-
+```
 A starting project for Ionic that optionally supports using custom SCSS.
 
 ## Using this project
