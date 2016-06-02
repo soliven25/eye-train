@@ -23,7 +23,7 @@ We recommend using the [Ionic CLI](https://github.com/driftyco/ionic-cli) to cre
 
 ##Run the app in ios
 ```bash
-$ionic plstform ios
+$ionic platform ios
 
 $ionic run ios 
 ```
