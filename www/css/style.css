@@ -4,8 +4,8 @@
 }
 
 #background-ani {
-	width: 1100px;
-	height: 10000px;
+  width: 1100px;
+  height: 10000px;
   background-image: url(../img/sky2.png);
   background-position: 0px 0px;
   background-repeat: repeat-y;
