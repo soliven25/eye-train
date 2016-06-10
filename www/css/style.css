@@ -1,21 +1,18 @@
 @keyframes animatedBackground{
 	from{background-position: 0 0;}
 	to{background-position: 0 100%;}
-
 }
 
-#background-ani{
-
+#background-ani {
 	width: 1100px;
 	height: 10000px;
-    background-image: url(../img/sky2.png);
-    background-position: 0px 0px;
-    background-repeat: repeat-y;
-    background-size: contain;
-
-    animation: animatedBackground 30s linear infinite;
+  background-image: url(../img/sky2.png);
+  background-position: 0px 0px;
+  background-repeat: repeat-y;
+  background-size: contain;
+  animation: animatedBackground 30s linear infinite;
 }
 
-.button{
+.button {
 	border: none;
 }
